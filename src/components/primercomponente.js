@@ -4,6 +4,6 @@ const primercomponente = () => {
   return (
     <div>primercomponente</div>
   )
-}
+}   
 
 export default primercomponente

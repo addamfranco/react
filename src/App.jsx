@@ -1,18 +1,25 @@
 import React from 'react'
+import primercomponente from './components/NavBar'
 
-const App = () => {
-    const [contador, setContador] = useState(0)
-    console.log(contador)
+function App(){
   return (
-    <>
-    <h1>{contador}</h1>
-    <button onClick={()=>setContador(contador + 1)}>+</button>
-    <div>App</div>
-    </>
-  )
+    <NavBar />
+  );
 }
+// const App = () => {
+//     const [contador, setContador] = useState(0)
+//     console.log(contador)
+//   return (
+//     <>
+//     <h1>{contador}</h1>
+//     <button onClick={()=>setContador(contador + 1)}>+</button>
+//     <div>App</div>
+//     </>
+//   )
+// }
 
-export default App
+export default App;
 
 import React from 'react'
+import NavBar from './components/NavBar'
 
