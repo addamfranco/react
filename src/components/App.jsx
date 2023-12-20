@@ -1,9 +1,13 @@
 import React from 'react'
-import primercomponente from './components/NavBar'
+import ItemListContainer from './ItemListContainer';
+
 
 function App(){
   return (
-    <NavBar />
+    <div className='App'>
+      <h1>Mi pagina</h1>
+      <ItemListContainer/>
+    </div>
   );
 }
 // const App = () => {
@@ -20,6 +24,4 @@ function App(){
 
 export default App;
 
-import React from 'react'
-import NavBar from './components/NavBar'
 
